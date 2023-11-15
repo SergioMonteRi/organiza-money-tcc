@@ -1,0 +1,56 @@
+.spends-by-date-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.spends-by-date-period {
+  display: block;
+}
+
+.spends-by-date-quantity {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.spends-by-date-quantity-label {
+  display: block;
+  font-weight: bold;
+  color: var(--green-color-80);
+  font-size: 18px;
+}
+
+@media screen and (min-width: 576px) {
+  .spends-by-date-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .spends-by-date-quantity-label {
+    text-align: end;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .spends-by-date-container {
+    display: flex;
+    flex-direction: row !important;
+    column-gap: 32px;
+  }
+
+  .spends-by-date-information {
+    flex-direction: column;
+
+    width: 450px;
+    justify-content: center;
+  }
+
+  .spends-by-date-period {
+    margin-top: 8px;
+  }
+
+  .spends-by-date-quantity-label {
+    text-align: left;
+  }
+}

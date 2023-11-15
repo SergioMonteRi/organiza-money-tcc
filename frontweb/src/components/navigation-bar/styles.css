@@ -1,0 +1,95 @@
+.main-nav {
+  padding: 12px !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo-icon {
+  font-size: 30px;
+  color: var(--green-color-150);
+  margin-right: 12px;
+}
+
+.nav-logo-text {
+  font-size: 20px;
+  color: var(--green-color-150);
+  font-weight: bold;
+}
+
+.nav-menu-icon {
+  color: var(--green-color-150);
+  font-size: 30px;
+}
+
+.main-menu {
+  padding: 16px 0;
+}
+
+.main-menu a {
+  color: var(--green-color-150);
+  font-weight: bold;
+}
+
+.nav-login-logout {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .main-nav {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-nav {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+
+  .nav-main-menu-login-logout {
+    display: none;
+  }
+
+  .nav-login-logout {
+    display: block;
+  }
+
+  .nav-login-logout a {
+    color: var(--green-color-150);
+    font-weight: bold;
+  }
+
+  .nav-login-logout-register {
+    padding: 12px;
+    border-radius: 10px;
+    margin-left: 16px;
+    border: 2px solid var(--green-color-150);
+    background-color: var(--white-color);
+    color: var(--green-color-150) !important;
+  }
+
+  .nav-login-logout-register:hover {
+    transition: 0.5s;
+    background-color: var(--green-color-150);
+    color: var(--white-color) !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main-nav {
+    padding-left: 64px !important;
+    padding-right: 64px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-nav {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+  }
+}

@@ -1,0 +1,68 @@
+.filter-container {
+  flex-direction: column !important;
+  column-gap: 16px;
+}
+
+.filter-input {
+  background-color: var(--green-color);
+  color: var(--white-color);
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  height: 45px;
+  width: 50%;
+  width: 100%;
+  padding-left: 12px;
+}
+
+.filter-input::placeholder {
+  color: var(--white-color);
+  font-weight: 700;
+  text-align: center;
+}
+
+.filter-input__control {
+  width: 100%;
+  border-radius: 10px !important;
+  background-color: var(--green-color) !important;
+  font-size: 1em;
+  border: none !important;
+  height: 45px;
+}
+
+.filter-input__menu {
+  overflow: auto;
+  max-height: 150px;
+}
+
+.css-b62m3t-container {
+  width: 100%;
+}
+
+.filter-input__single-value {
+  color: var(--white-color) !important;
+  padding: 0 5px;
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 700;
+}
+
+.filter-input__placeholder {
+  color: var(--white-color) !important;
+  font-weight: 700;
+  text-align: center;
+}
+
+.filter-input__indicators {
+  display: none !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .filter-container {
+    flex-direction: row !important;
+  }
+
+  .filter-input,
+  .filter-input__control {
+    height: 50px;
+  }
+}

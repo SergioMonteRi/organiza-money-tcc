@@ -1,0 +1,10 @@
+.profile-card-container {
+  flex-direction: row !important;
+  align-items: center;
+  column-gap: 8px;
+  justify-content: center;
+}
+
+.profile-card-container svg {
+  font-size: 28px;
+}

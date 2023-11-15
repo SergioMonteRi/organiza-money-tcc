@@ -1,0 +1,20 @@
+.spend-summary-card-container {
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  width: 100%;
+}
+
+.spend-summary-card-value {
+  font-size: 16px;
+}
+
+.spend-summary-card-label {
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .spend-summary-card-container {
+    height: 100%;
+  }
+}

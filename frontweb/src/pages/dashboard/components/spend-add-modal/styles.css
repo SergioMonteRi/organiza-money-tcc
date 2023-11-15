@@ -1,0 +1,29 @@
+.spend-add {
+  position: relative;
+  overflow: auto;
+}
+
+.product-crud-select__control {
+  border: 1px solid #dee2e6 !important;
+}
+
+.product-crud-select__menu {
+  overflow-y: auto !important;
+  max-height: 150px;
+}
+
+.product-crud-select__placeholder {
+  font-size: 16px;
+}
+
+.add-spend-date-input {
+  color: #6b6b6b;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  width: 50%;
+  width: 100%;
+  padding-left: 12px;
+  border: 1px solid #dee2e6;
+}

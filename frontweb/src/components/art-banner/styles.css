@@ -1,0 +1,35 @@
+.login-img-container {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .login-img-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3fce7;
+    border-radius: 0px 50px 50px 0px;
+    position: relative;
+  }
+
+  .login-img-background {
+    width: calc(100% - 50px);
+    height: 100%;
+    left: 0;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+
+  .login-img-background p {
+    color: var(--main-grey);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 24px;
+  }
+}

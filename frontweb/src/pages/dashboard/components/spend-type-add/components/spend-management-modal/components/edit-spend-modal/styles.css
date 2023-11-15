@@ -1,0 +1,20 @@
+.edit-spend-modal-name-change {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 24px;
+  justify-content: center;
+  height: 70px;
+}
+
+.edit-spend-modal-name-change svg {
+  font-size: 24px;
+}
+
+.edit-spend-modal-name-change h2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  font-size: 20px;
+}

@@ -1,0 +1,70 @@
+.spend-modal-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 16px;
+}
+
+.spend-modal-container h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.spend-modal-load-container {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.spend-modal-load-container h1 {
+  margin-bottom: 32px;
+}
+
+.spend-modal-load-container h2 {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.spend-modal-form-container {
+  display: flex;
+  flex-direction: column;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.spend-modal-form-field-input {
+  border-radius: 10px;
+  border: 1px solid var(--grey-color) !important;
+  padding: 8px 12px;
+  height: 45px;
+  width: 100%;
+}
+
+.spend-modal-form-field-input:-webkit-autofill,
+.spend-modal-form-field-input:-webkit-autofill:hover,
+.spend-modal-form-field-input:-webkit-autofill:focus,
+.spend-modal-form-field-input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--grey-color);
+}
+
+.spend-modal-form-field-input::placeholder {
+  font-size: 14px;
+}
+
+.spend-modal-form-button-container {
+  display: flex;
+  column-gap: 8px;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.spend-modal-form-button {
+  width: 100%;
+  background-color: var(--green-color-150);
+  border: none;
+  border-radius: 5px;
+  color: var(--white-color);
+  font-weight: bold;
+  height: 40px;
+}
